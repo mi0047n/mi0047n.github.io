@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: '10.x'
 
-      - run: python tests/Aufgabe4_test.py > test-output.txt
+      - run: python tests/Aufgabe3_test.py > test-output.txt
       - run: echo ::set-output name=result::$(grep "Yes" test-output.txt | wc -l)
         id: test
         shell: bash
