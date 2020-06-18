@@ -15,7 +15,7 @@ def check_if_string_in_file(file_name, string_to_search):
 		if re.findall('>\s?([A-Z]|[a-z])+', line):
 			return True
 	f.close()
-	return False
+	return True
 
 
 if check_if_string_in_file(directory, '##'):
