@@ -8,7 +8,7 @@ directory = './index.md'
 
 
 def check_if_string_in_file(file_name, string_to_search):
-	return True
+   return True
 
 
 if check_if_string_in_file(directory, '##'):
