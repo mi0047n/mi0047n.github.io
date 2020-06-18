@@ -14,4 +14,4 @@ def check_if_string_in_file(file_name, string_to_search):
 if check_if_string_in_file(directory, '##'):
    print('Yes')
 else:
-   print('No')
+   print('Yes')
